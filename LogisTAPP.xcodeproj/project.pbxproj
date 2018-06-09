@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		81D44EFA7EFEF1ED289C0162 /* Pods_LogisTAPP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6993A1F933B0AB3D6E0D07AE /* Pods_LogisTAPP.framework */; };
+		CE04F82220CA701A0004A4E9 /* MapaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE04F82120CA701A0004A4E9 /* MapaController.swift */; };
+		CE0DA1A120BE61F000284642 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DA1A020BE61F000284642 /* LoginController.swift */; };
+		CE0DA1A320BE63FF00284642 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DA1A220BE63FF00284642 /* MenuController.swift */; };
+		CE0DA1A520BE642700284642 /* NuevaRotulacionController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DA1A420BE642700284642 /* NuevaRotulacionController.swift */; };
+		CE0DA1A720BE644700284642 /* MisRotulacionesController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DA1A620BE644700284642 /* MisRotulacionesController.swift */; };
+		CE0DA1A920BE646B00284642 /* MiRutaController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DA1A820BE646B00284642 /* MiRutaController.swift */; };
+		CE0DA1AB20BE647C00284642 /* SincronizarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0DA1AA20BE647C00284642 /* SincronizarController.swift */; };
+		CEADA7FA20C475CA004D3999 /* RotulacionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADA7F920C475CA004D3999 /* RotulacionModel.swift */; };
+		CEADA7FC20C475DA004D3999 /* RutaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADA7FB20C475DA004D3999 /* RutaModel.swift */; };
+		CEADA7FE20C475F0004D3999 /* UsuarioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADA7FD20C475F0004D3999 /* UsuarioModel.swift */; };
+		CEADA80020C4768E004D3999 /* EntidadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADA7FF20C4768E004D3999 /* EntidadModel.swift */; };
+		CEADA80220C4769C004D3999 /* ComercioModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADA80120C4769C004D3999 /* ComercioModel.swift */; };
+		CEADA80420C476AE004D3999 /* PopModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADA80320C476AE004D3999 /* PopModel.swift */; };
+		CEADA80620C476CD004D3999 /* SucursalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADA80520C476CD004D3999 /* SucursalModel.swift */; };
+		CEADA80820C47B02004D3999 /* variables.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADA80720C47B02004D3999 /* variables.swift */; };
+		CEADA80C20C4BC50004D3999 /* Switcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADA80B20C4BC50004D3999 /* Switcher.swift */; };
+		CEADA80E20C4BD01004D3999 /* NavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEADA80D20C4BD01004D3999 /* NavController.swift */; };
+		CED71D1E20C6457A001CF4CF /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED71D1D20C6457A001CF4CF /* APIManager.swift */; };
+		CEFADDCE20BD0B1A002D3D24 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFADDCD20BD0B1A002D3D24 /* AppDelegate.swift */; };
+		CEFADDD020BD0B1A002D3D24 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEFADDCF20BD0B1A002D3D24 /* ViewController.swift */; };
+		CEFADDD320BD0B1A002D3D24 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFADDD120BD0B1A002D3D24 /* Main.storyboard */; };
+		CEFADDD520BD0B1B002D3D24 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEFADDD420BD0B1B002D3D24 /* Assets.xcassets */; };
+		CEFADDD820BD0B1B002D3D24 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEFADDD620BD0B1B002D3D24 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6993A1F933B0AB3D6E0D07AE /* Pods_LogisTAPP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LogisTAPP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		928A536BC8ACEA66988F736E /* Pods-LogisTAPP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogisTAPP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LogisTAPP/Pods-LogisTAPP.debug.xcconfig"; sourceTree = "<group>"; };
+		A7AFEBECBB125F5CAF9732C4 /* Pods-LogisTAPP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LogisTAPP.release.xcconfig"; path = "Pods/Target Support Files/Pods-LogisTAPP/Pods-LogisTAPP.release.xcconfig"; sourceTree = "<group>"; };
+		CE04F82120CA701A0004A4E9 /* MapaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapaController.swift; sourceTree = "<group>"; };
+		CE0DA1A020BE61F000284642 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		CE0DA1A220BE63FF00284642 /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		CE0DA1A420BE642700284642 /* NuevaRotulacionController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuevaRotulacionController.swift; sourceTree = "<group>"; };
+		CE0DA1A620BE644700284642 /* MisRotulacionesController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MisRotulacionesController.swift; sourceTree = "<group>"; };
+		CE0DA1A820BE646B00284642 /* MiRutaController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiRutaController.swift; sourceTree = "<group>"; };
+		CE0DA1AA20BE647C00284642 /* SincronizarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SincronizarController.swift; sourceTree = "<group>"; };
+		CEADA7F920C475CA004D3999 /* RotulacionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotulacionModel.swift; sourceTree = "<group>"; };
+		CEADA7FB20C475DA004D3999 /* RutaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RutaModel.swift; sourceTree = "<group>"; };
+		CEADA7FD20C475F0004D3999 /* UsuarioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsuarioModel.swift; sourceTree = "<group>"; };
+		CEADA7FF20C4768E004D3999 /* EntidadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntidadModel.swift; sourceTree = "<group>"; };
+		CEADA80120C4769C004D3999 /* ComercioModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComercioModel.swift; sourceTree = "<group>"; };
+		CEADA80320C476AE004D3999 /* PopModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopModel.swift; sourceTree = "<group>"; };
+		CEADA80520C476CD004D3999 /* SucursalModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SucursalModel.swift; sourceTree = "<group>"; };
+		CEADA80720C47B02004D3999 /* variables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = variables.swift; sourceTree = "<group>"; };
+		CEADA80B20C4BC50004D3999 /* Switcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Switcher.swift; sourceTree = "<group>"; };
+		CEADA80D20C4BD01004D3999 /* NavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavController.swift; sourceTree = "<group>"; };
+		CED71D1D20C6457A001CF4CF /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		CEFADDCA20BD0B1A002D3D24 /* LogisTAPP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogisTAPP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEFADDCD20BD0B1A002D3D24 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEFADDCF20BD0B1A002D3D24 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CEFADDD220BD0B1A002D3D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEFADDD420BD0B1B002D3D24 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEFADDD720BD0B1B002D3D24 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEFADDD920BD0B1B002D3D24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEFADDC720BD0B1A002D3D24 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81D44EFA7EFEF1ED289C0162 /* Pods_LogisTAPP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45108B20F7452BD42A3F3928 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				928A536BC8ACEA66988F736E /* Pods-LogisTAPP.debug.xcconfig */,
+				A7AFEBECBB125F5CAF9732C4 /* Pods-LogisTAPP.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B4E3B57897960EF754463DCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6993A1F933B0AB3D6E0D07AE /* Pods_LogisTAPP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEFADDC120BD0B1A002D3D24 = {
+			isa = PBXGroup;
+			children = (
+				CEFADDCC20BD0B1A002D3D24 /* LogisTAPP */,
+				CEFADDCB20BD0B1A002D3D24 /* Products */,
+				45108B20F7452BD42A3F3928 /* Pods */,
+				B4E3B57897960EF754463DCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CEFADDCB20BD0B1A002D3D24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEFADDCA20BD0B1A002D3D24 /* LogisTAPP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEFADDCC20BD0B1A002D3D24 /* LogisTAPP */ = {
+			isa = PBXGroup;
+			children = (
+				CEFADDE120BD0B39002D3D24 /* Model */,
+				CEFADDE020BD0B2E002D3D24 /* Controller */,
+				CEFADDDF20BD0B24002D3D24 /* View */,
+				CEFADDD420BD0B1B002D3D24 /* Assets.xcassets */,
+				CEFADDD920BD0B1B002D3D24 /* Info.plist */,
+			);
+			path = LogisTAPP;
+			sourceTree = "<group>";
+		};
+		CEFADDDF20BD0B24002D3D24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEFADDD120BD0B1A002D3D24 /* Main.storyboard */,
+				CEFADDD620BD0B1B002D3D24 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEFADDE020BD0B2E002D3D24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CEFADDCF20BD0B1A002D3D24 /* ViewController.swift */,
+				CEFADDCD20BD0B1A002D3D24 /* AppDelegate.swift */,
+				CE0DA1A020BE61F000284642 /* LoginController.swift */,
+				CE0DA1A220BE63FF00284642 /* MenuController.swift */,
+				CE0DA1A420BE642700284642 /* NuevaRotulacionController.swift */,
+				CE0DA1A620BE644700284642 /* MisRotulacionesController.swift */,
+				CE0DA1A820BE646B00284642 /* MiRutaController.swift */,
+				CE0DA1AA20BE647C00284642 /* SincronizarController.swift */,
+				CEADA80B20C4BC50004D3999 /* Switcher.swift */,
+				CEADA80D20C4BD01004D3999 /* NavController.swift */,
+				CE04F82120CA701A0004A4E9 /* MapaController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CEFADDE120BD0B39002D3D24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CEADA7F920C475CA004D3999 /* RotulacionModel.swift */,
+				CEADA7FB20C475DA004D3999 /* RutaModel.swift */,
+				CEADA7FD20C475F0004D3999 /* UsuarioModel.swift */,
+				CEADA7FF20C4768E004D3999 /* EntidadModel.swift */,
+				CEADA80120C4769C004D3999 /* ComercioModel.swift */,
+				CEADA80320C476AE004D3999 /* PopModel.swift */,
+				CEADA80520C476CD004D3999 /* SucursalModel.swift */,
+				CEADA80720C47B02004D3999 /* variables.swift */,
+				CED71D1D20C6457A001CF4CF /* APIManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEFADDC920BD0B1A002D3D24 /* LogisTAPP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEFADDDC20BD0B1B002D3D24 /* Build configuration list for PBXNativeTarget "LogisTAPP" */;
+			buildPhases = (
+				6AA444EF13A72B9C2CD68B3C /* [CP] Check Pods Manifest.lock */,
+				CEFADDC620BD0B1A002D3D24 /* Sources */,
+				CEFADDC720BD0B1A002D3D24 /* Frameworks */,
+				CEFADDC820BD0B1A002D3D24 /* Resources */,
+				F2B5EA90935518821089FB40 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogisTAPP;
+			productName = LogisTAPP;
+			productReference = CEFADDCA20BD0B1A002D3D24 /* LogisTAPP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEFADDC220BD0B1A002D3D24 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Ronald Murillo Solano";
+				TargetAttributes = {
+					CEFADDC920BD0B1A002D3D24 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = CEFADDC520BD0B1A002D3D24 /* Build configuration list for PBXProject "LogisTAPP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEFADDC120BD0B1A002D3D24;
+			productRefGroup = CEFADDCB20BD0B1A002D3D24 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEFADDC920BD0B1A002D3D24 /* LogisTAPP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEFADDC820BD0B1A002D3D24 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEFADDD820BD0B1B002D3D24 /* LaunchScreen.storyboard in Resources */,
+				CEFADDD520BD0B1B002D3D24 /* Assets.xcassets in Resources */,
+				CEFADDD320BD0B1A002D3D24 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6AA444EF13A72B9C2CD68B3C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LogisTAPP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F2B5EA90935518821089FB40 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LogisTAPP/Pods-LogisTAPP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LogisTAPP/Pods-LogisTAPP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEFADDC620BD0B1A002D3D24 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE0DA1A520BE642700284642 /* NuevaRotulacionController.swift in Sources */,
+				CED71D1E20C6457A001CF4CF /* APIManager.swift in Sources */,
+				CE04F82220CA701A0004A4E9 /* MapaController.swift in Sources */,
+				CE0DA1A320BE63FF00284642 /* MenuController.swift in Sources */,
+				CEFADDD020BD0B1A002D3D24 /* ViewController.swift in Sources */,
+				CEADA80820C47B02004D3999 /* variables.swift in Sources */,
+				CE0DA1A920BE646B00284642 /* MiRutaController.swift in Sources */,
+				CEADA80E20C4BD01004D3999 /* NavController.swift in Sources */,
+				CE0DA1AB20BE647C00284642 /* SincronizarController.swift in Sources */,
+				CEADA80220C4769C004D3999 /* ComercioModel.swift in Sources */,
+				CEADA7FC20C475DA004D3999 /* RutaModel.swift in Sources */,
+				CEADA7FE20C475F0004D3999 /* UsuarioModel.swift in Sources */,
+				CEADA7FA20C475CA004D3999 /* RotulacionModel.swift in Sources */,
+				CE0DA1A120BE61F000284642 /* LoginController.swift in Sources */,
+				CEFADDCE20BD0B1A002D3D24 /* AppDelegate.swift in Sources */,
+				CEADA80420C476AE004D3999 /* PopModel.swift in Sources */,
+				CE0DA1A720BE644700284642 /* MisRotulacionesController.swift in Sources */,
+				CEADA80020C4768E004D3999 /* EntidadModel.swift in Sources */,
+				CEADA80620C476CD004D3999 /* SucursalModel.swift in Sources */,
+				CEADA80C20C4BC50004D3999 /* Switcher.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEFADDD120BD0B1A002D3D24 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFADDD220BD0B1A002D3D24 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEFADDD620BD0B1B002D3D24 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEFADDD720BD0B1B002D3D24 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEFADDDA20BD0B1B002D3D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEFADDDB20BD0B1B002D3D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEFADDDD20BD0B1B002D3D24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 928A536BC8ACEA66988F736E /* Pods-LogisTAPP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LogisTAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldmurillosolano.LogisTAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEFADDDE20BD0B1B002D3D24 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7AFEBECBB125F5CAF9732C4 /* Pods-LogisTAPP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = LogisTAPP/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ronaldmurillosolano.LogisTAPP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEFADDC520BD0B1A002D3D24 /* Build configuration list for PBXProject "LogisTAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFADDDA20BD0B1B002D3D24 /* Debug */,
+				CEFADDDB20BD0B1B002D3D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEFADDDC20BD0B1B002D3D24 /* Build configuration list for PBXNativeTarget "LogisTAPP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEFADDDD20BD0B1B002D3D24 /* Debug */,
+				CEFADDDE20BD0B1B002D3D24 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEFADDC220BD0B1A002D3D24 /* Project object */;
+}
